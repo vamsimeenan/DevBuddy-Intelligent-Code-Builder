@@ -1,41 +1,28 @@
-# 🛠️ Coder Buddy
+# DevBuddy AI – Intelligent Code Builder
 
-**Coder Buddy** is an AI-powered coding assistant built with [LangGraph](https://github.com/langchain-ai/langgraph).  
-It works like a multi-agent development team that can take a natural language request and transform it into a complete, working project — file by file — using real developer workflows.
+DevBuddy AI is an agentic AI system that converts natural language prompts into working code applications using LLMs, LangChain, and LangGraph.
 
----
+## Built By
+vamsimeenan
 
-## 🏗️ Architecture
+## What I Built
+- Designed agent-based architecture for code generation
+- Integrated LLM for natural language to code conversion
+- Built prompt-to-application generation pipeline
+- Structured multi-agent workflow using LangGraph
 
-- **Planner Agent** – Analyzes your request and generates a detailed project plan.
-- **Architect Agent** – Breaks down the plan into specific engineering tasks with explicit context for each file.
-- **Coder Agent** – Implements each task, writes directly into files, and uses available tools like a real developer.
+## Key Features
+- Natural language to code generation
+- AI-powered software builder assistant
+- Multi-agent architecture system
+- Scalable LLM-based generation pipeline
 
-<div style="text-align: center;">
-    <img src="resources/coder_buddy_diagram.png" alt="Coder Agent Architecture" width="90%"/>
-</div>
+## Tech Stack
+- Python
+- LangChain
+- LangGraph
+- Groq / LLM APIs
+- OpenAI-compatible models
 
----
-
-## 🚀 Getting Started
-### Prerequisites
-- Make sure you have uv installed, follow the instructions [here](https://docs.astral.sh/uv/getting-started/installation/) to install it.
-- Ensure that you have created a groq account and have your API key ready. Create an API key [here](https://console.groq.com/keys).
-
-### ⚙️ **Instsllstion and Startup**
-- Create a virtual environment using: `uv venv` and activate it using `source .venv/bin/activate`
-- Install the dependencies using: `uv pip install -r pyproject.toml`
-- Create a `.env` file and add the variables and their respective values mentioned in the `.sample_env` file
-
-Now that we are done with all the set-up & installation steps we can start the application using the following command:
-  ```bash
-    python main.py
-  ```
-
-### 🧪 Example Prompts
-- Create a to-do list application using html, css, and javascript.
-- Create a simple calculator web application.
-- Create a simple blog API in FastAPI with a SQLite database.
-
----
-Copyright©️ Codebasics Inc. All rights reserved.
+## Impact
+Helps developers generate full applications from prompts, reducing development time and improving productivity significantly.
