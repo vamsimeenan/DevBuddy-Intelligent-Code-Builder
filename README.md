@@ -1,392 +1,130 @@
-<div align="center">
-
 # 🤖 DevBuddy AI
 
-### Intelligent Multi-Agent AI Code Generation Platform
+> **Intelligent Multi-Agent AI Code Generation Platform** — Transform natural language prompts into functional applications using Agentic AI workflows.
 
-Transform natural language prompts into functional software applications using LLMs, LangChain, LangGraph, and Agentic AI workflows.
-
-<br>
-
-<img src="assets/banner.png" width="100%" alt="DevBuddy Banner"/>
-
-<br><br>
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
-![LangChain](https://img.shields.io/badge/LangChain-LLM_Framework-green?style=for-the-badge)
-![LangGraph](https://img.shields.io/badge/LangGraph-Agent_Workflows-black?style=for-the-badge)
-![Groq](https://img.shields.io/badge/Groq-LLM_API-orange?style=for-the-badge)
-![AI](https://img.shields.io/badge/AI-Agentic_Systems-purple?style=for-the-badge)
-![OpenAI](https://img.shields.io/badge/OpenAI-Compatible_Models-red?style=for-the-badge)
-
-</div>
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-0.1+-green?style=for-the-badge&logo=chainlink&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-Multi_Agent-teal?style=for-the-badge) ![Groq](https://img.shields.io/badge/Groq_API-Enabled-orange?style=for-the-badge) ![OpenAI](https://img.shields.io/badge/OpenAI-Compatible-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 ---
 
-# 🌟 Introduction
+## 📌 Overview
 
-DevBuddy AI is an advanced AI-powered software generation platform that converts natural language prompts into functional applications using Large Language Models and multi-agent orchestration systems.
+**DevBuddy AI** turns your ideas into working code — just describe what you want to build in plain English. Powered by **LangChain**, **LangGraph**, **Groq**, and **OpenAI-compatible models**, it orchestrates multiple AI agents to automate the full software generation pipeline from prompt to functional application.
 
-The platform leverages:
-- **LangChain**
-- **LangGraph**
-- **Groq APIs**
-- **OpenAI-Compatible Models**
-- **Agentic AI Workflows**
-
-to automate the software development pipeline from idea to code generation.
-
-This project demonstrates:
-- Multi-Agent AI Systems
-- Prompt-to-Code Generation
-- Agentic Workflow Orchestration
-- AI Software Engineering
-- Full Stack AI Application Development
+Rapid prototyping shouldn't require hours of boilerplate. DevBuddy AI makes it instant.
 
 ---
 
-# 🎯 Problem Statement
+## ✨ Features
 
-Building applications manually can be:
-- Time-consuming
-- Complex for beginners
-- Repetitive
-- Difficult to prototype rapidly
-
-DevBuddy AI solves this problem by:
-✅ Converting prompts into code  
-✅ Automating development workflows  
-✅ Reducing repetitive coding tasks  
-✅ Accelerating project prototyping  
+| Feature | Description |
+|---|---|
+| 🤖 Prompt-to-Code | Generate apps directly from natural language |
+| 🧠 Multi-Agent Architecture | Planner, Coder, and Review agents via LangGraph |
+| ⚡ Fast Inference | Groq + OpenAI-compatible models for rapid generation |
+| 🏗️ Full Pipeline Automation | Requirement → Plan → Code → Output |
+| 🔄 Scalable Workflows | Modular agent system, easy to extend |
+| 🎨 Developer-Friendly UI | Simple interface for prompt-based project generation |
 
 ---
 
-# 🔥 Key Features
-
-## 🤖 Natural Language to Code Generation
-Generate applications directly from human language prompts.
-
+## 🏗️ Architecture
+User Prompt → Prompt Processing → LangChain Pipeline
+→ LangGraph Agent System
+├── Planner Agent
+├── Coding Agent
+└── Review Agent
+→ Application Generator → Final Generated Code
 ---
 
-## 🧠 Multi-Agent AI Architecture
-Uses multiple AI agents coordinated through LangGraph workflows.
+## 🛠️ Tech Stack
 
----
-
-## ⚡ Fast LLM-Powered Generation
-Integrated with Groq and OpenAI-compatible models for rapid inference.
-
----
-
-## 🏗️ Prompt-to-Application Pipeline
-Transforms user requirements into structured software generation tasks.
-
----
-
-## 🔄 Scalable Workflow Orchestration
-Modular and extensible architecture for future AI agents and workflows.
-
----
-
-## 🎨 Interactive Developer Experience
-Simple UI for project generation and AI-assisted development.
-
----
-
-# 🖼️ Application Screenshots
-
----
-
-## 🏠 Home Interface
-
-<img src="assets/home.png" width="100%" alt="Home UI"/>
-
----
-
-## 💬 Prompt-to-Code Generation
-
-<img src="assets/generation.png" width="100%" alt="Prompt Generation"/>
-
----
-
-## 🧠 Agent Workflow Execution
-
-<img src="assets/agents.png" width="100%" alt="Agent Workflow"/>
-
----
-
-## ⚙️ Generated Application Output
-
-<img src="assets/output.png" width="100%" alt="Generated App"/>
-
----
-
-# 🏗️ System Architecture
-
-<img src="assets/architecture.png" width="100%" alt="Architecture Diagram"/>
-
----
-
-# ⚙️ Architecture Flow
-
-```text
-                    +----------------------+
-                    |    User Prompt       |
-                    +----------------------+
-                               |
-                               v
-                    +----------------------+
-                    |  Prompt Processing   |
-                    +----------------------+
-                               |
-                               v
-                    +----------------------+
-                    |  LangChain Pipeline  |
-                    +----------------------+
-                               |
-                               v
-              +------------------------------------+
-              |      LangGraph Agent System        |
-              +------------------------------------+
-                 |             |              |
-                 v             v              v
-        +---------------+ +--------------+ +---------------+
-        | Planner Agent | | Coding Agent | | Review Agent  |
-        +---------------+ +--------------+ +---------------+
-                               |
-                               v
-                    +----------------------+
-                    | Application Generator|
-                    +----------------------+
-                               |
-                               v
-                    +----------------------+
-                    | Final Generated Code |
-                    +----------------------+
-```
-
----
-
-# 🧠 AI Workflow
-
-## Step 1 — User Prompt
-User describes the application idea in natural language.
-
----
-
-## Step 2 — Prompt Understanding
-LangChain processes and structures the request.
-
----
-
-## Step 3 — Agent Coordination
-LangGraph orchestrates multiple AI agents.
-
----
-
-## Step 4 — Code Generation
-LLMs generate application logic and structure.
-
----
-
-## Step 5 — Validation & Output
-Generated code is organized and displayed.
-
----
-
-# ⚙️ Tech Stack
-
-| Technology | Purpose |
+| Technology | Role |
 |---|---|
 | Python | Core Backend |
 | LangChain | LLM Orchestration |
-| LangGraph | Multi-Agent Workflow |
+| LangGraph | Multi-Agent Workflow Engine |
 | Groq API | Fast AI Inference |
 | OpenAI Models | Code Generation |
-| HTML/CSS/JS | Frontend Components |
+| HTML / CSS / JS | Frontend Components |
 
 ---
 
-# 📂 Folder Structure
-
-```bash
+## 📂 Structure
 DevBuddy-AI/
-│
 ├── backend/
 ├── agents/
 ├── workflows/
 ├── prompts/
 ├── frontend/
 ├── assets/
-│   ├── banner.png
-│   ├── home.png
-│   ├── generation.png
-│   ├── agents.png
-│   ├── output.png
-│   └── architecture.png
-│
 ├── requirements.txt
 ├── .env
 └── README.md
-```
-
 ---
 
-# 🚀 Installation Guide
-
-## 1️⃣ Clone Repository
+## 🚀 Quick Start
 
 ```bash
+# 1. Clone
 git clone https://github.com/vamsimeenan/DevBuddy-Intelligent-Code-Builder.git
-```
-
----
-
-## 2️⃣ Navigate to Project
-
-```bash
 cd DevBuddy-Intelligent-Code-Builder
-```
 
----
-
-## 3️⃣ Create Virtual Environment
-
-### Windows
-
-```bash
+# 2. Create virtual environment
 python -m venv venv
-venv\Scripts\activate
-```
+source venv/bin/activate        # Mac/Linux
+# venv\Scripts\activate         # Windows
 
-### Mac/Linux
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
----
-
-## 4️⃣ Install Dependencies
-
-```bash
+# 3. Install dependencies
 pip install -r requirements.txt
-```
 
----
+# 4. Set up environment
+GROQ_API_KEY=your_groq_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
 
-## 5️⃣ Configure Environment Variables
-
-Create `.env` file:
-
-```env
-GROQ_API_KEY=your_api_key_here
-OPENAI_API_KEY=your_api_key_here
-```
-
----
-
-## 6️⃣ Run Application
-
-```bash
+# 5. Run
 streamlit run app.py
 ```
 
 ---
 
-# 📊 Performance Highlights
+## 🎯 Impact
 
-| Metric | Result |
-|---|---|
-| Code Generation Speed | Fast |
-| Workflow Scalability | High |
-| Automation Capability | Advanced |
-| UI Simplicity | Clean |
-| Productivity Improvement | Significant |
+> 🚀 Significantly reduces early-stage development time through AI-powered code automation.
 
----
-
-# 🚀 Impact
-
-DevBuddy AI helps developers:
-- Prototype applications faster
-- Reduce repetitive coding
-- Accelerate software development
-- Improve productivity using AI automation
-
-The system significantly reduces development time for early-stage projects and rapid prototyping.
+- Prototype applications in minutes, not hours
+- Eliminate repetitive boilerplate coding
+- Accelerate MVP development cycles
+- Let AI handle structure while you focus on logic
 
 ---
 
-# 🔮 Future Enhancements
+## 🔮 Roadmap
 
-- Autonomous debugging agents
-- AI deployment assistant
-- GitHub integration
-- Real-time collaborative coding
-- Multi-language code generation
-- Voice-based prompt input
-- AI testing agent
-- Containerized deployment workflows
-- Fine-tuned code generation models
-
----
-
-# 📈 Learning Outcomes
-
-This project helped in understanding:
-- Agentic AI Systems
-- LangGraph Workflows
-- Multi-Agent Orchestration
-- Prompt-to-Code Pipelines
-- AI Software Engineering
-- LLM Integration
-- Workflow Automation
-- Full Stack AI Architecture
+- [ ] Autonomous debugging & error-fixing agents
+- [ ] GitHub integration & auto-commit
+- [ ] AI deployment assistant
+- [ ] Real-time collaborative coding
+- [ ] Multi-language code generation
+- [ ] Voice-based prompt input
+- [ ] AI testing agent
+- [ ] Containerized deployment workflows
 
 ---
 
-# 👨‍💻 Developed By
+## 👨‍💻 Author
 
-<div align="center">
+**Vamsi Meenan Ravuri** — AI • Full Stack • Software Engineering
 
-## Vamsi Meenan Ravuri
-
-### AI • Full Stack • Software Engineering
-
-Passionate about building intelligent AI systems, autonomous workflows, and scalable developer tools.
-
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-vamsimeenan-black?style=flat&logo=github)](https://github.com/vamsimeenan)
 
 ---
 
-# 🤝 Contributions
+## 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
-
-Feel free to fork this repository and enhance the project.
+Fork → create a branch → commit → open a Pull Request. All contributions welcome!
 
 ---
 
-# ⭐ GitHub Support
+⭐ **Star** the repo if it helped • 🍴 **Fork** and build on it • 📜 Educational use license
 
-If you found this project useful:
-
-⭐ Star the repository  
-🍴 Fork the project  
-📢 Share feedback  
-
----
-
-# 📜 License
-
-This project is developed for educational and portfolio purposes.
-
----
-
-<div align="center">
-
-## 🚀 Building Intelligent Agentic AI Systems
-
-</div>
+*Because the best coding buddy is one that never sleeps. 🤖*
